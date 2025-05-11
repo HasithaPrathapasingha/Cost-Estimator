@@ -2,7 +2,11 @@ body{
     margin: 0;
     padding: 0;
 }
-
+.textStyle{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 .parentDiv{
     background-color: #ededed;
     height: 100vh;
@@ -14,5 +18,27 @@ body{
     background-color: white;
     width: 400px;
     height: 600px;
-    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(194, 194, 194);
+}
+h1{
+    font-weight: 700;
+    text-align: center;
+}
+.formDiv{
+    position: relative;
+    left: 5px;
+    padding: 0 0 0 30px;
+}
+.seperateLables{
+    margin: 0 0 16px 0;
+}
+.lableName{
+    font-weight: 600;
+}
+#drivewaySizeTexrarea{
+    width: 300px;
+    height: 36px;
+    border: 1.5px solid rgb(214, 214, 214);
+    border-radius: 5px;
 }
